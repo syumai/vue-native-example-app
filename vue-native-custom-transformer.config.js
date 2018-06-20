@@ -1,5 +1,3 @@
-const stylus = require('stylus');
-
 module.exports = {
   // configure transformer plugins
   plugins: {
