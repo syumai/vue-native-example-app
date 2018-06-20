@@ -20,8 +20,8 @@ export default {
     decrement() {
       this.count--;
     },
-  }
-}
+  },
+};
 </script>
 
 <style>

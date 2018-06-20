@@ -1,8 +1,8 @@
 module.exports = {
   getTransformModulePath() {
-    return require.resolve("./vueTransformerPlugin.js");
+    return require.resolve('./vueTransformerPlugin.js');
   },
   getSourceExts() {
-    return ["vue"];
-  }
+    return ['vue'];
+  },
 };

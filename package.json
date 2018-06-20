@@ -22,10 +22,13 @@
   },
   "dependencies": {
     "expo": "^27.0.1",
+    "node-sass": "^4.9.0",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "stylus": "^0.54.5",
+    "typescript": "^2.9.2",
     "vue-native-core": "0.0.5",
-    "vue-native-custom-transformer-plugin": "^0.1.0",
+    "vue-native-custom-transformer-plugin": "file:../vue-native-custom-transformer-plugin",
     "vue-native-helper": "0.0.8"
   }
 }
