@@ -1,40 +1,26 @@
 <template lang="pug">
   view.container
-    text.count {{count}}
-    view.button-container
-      button(title="+", :on-press="increment")
-      button(title="-", :on-press="decrement")
+    text.title
+      | Counter example
+    counter
 </template>
 
-<script>
+<script lang="ts">
+import Counter from './Counter.vue';
+
 export default {
-  data() {
-    return {
-      count: 0,
-    };
-  },
-  methods: {
-    increment() {
-      this.count++;
-    },
-    decrement() {
-      this.count--;
-    },
-  },
-};
+  components: { Counter }
+}
 </script>
 
-<style>
-.container {
-  background-color: white;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-}
-.button-container {
-  flex-direction: row;
-}
-.text {
-  color: blue;
-}
+<style lang="stylus">
+.container
+  background-color: white
+  align-items: center
+  justify-content: center
+  flex: 1
+
+.title
+  font-size: 18px
+  margin-bottom: 20px
 </style>
