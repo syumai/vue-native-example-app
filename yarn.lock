@@ -7297,7 +7297,20 @@ vue-native-helper@0.0.8:
     he "^1.1.0"
     prop-types "^15.5.10"
 
-vue-native-scripts@0.0.8, vue-native-scripts@^0.0.8:
+vue-native-scripts@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/vue-native-scripts/-/vue-native-scripts-0.0.9.tgz#3911712743d8862364e8ff5e15f93c522e966a18"
+  dependencies:
+    babel-core "^6.25.0"
+    cross-spawn "^5.1.0"
+    css-parse "^2.0.0"
+    fs-extra "^3.0.1"
+    js-beautify "^1.6.14"
+    node-watch "^0.5.4"
+    vue-native-template-compiler "0.0.8"
+    walk "^2.3.9"
+
+vue-native-scripts@^0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/vue-native-scripts/-/vue-native-scripts-0.0.8.tgz#8d92501ff6edc943fd951bb25c8f3f6137a677e7"
   dependencies:
