@@ -26,8 +26,8 @@
     "react-native": "~0.55.2",
     "stylus": "^0.54.5",
     "typescript": "^2.9.2",
-    "vue-native-core": "0.0.5",
-    "vue-native-custom-transformer-plugin": "^0.2.0",
-    "vue-native-helper": "0.0.8"
+    "vue-native-core": "0.0.8",
+    "vue-native-custom-transformer-plugin": "^0.2.2",
+    "vue-native-helper": "0.0.9"
   }
 }
